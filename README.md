@@ -1,4 +1,4 @@
-# Buildout base para proyectos con OpenERP y PostgreSQL
+# Buildout base para proyectos con OpenERP y PostgreSQL --PENDIENT MODIFICACIÓN SETUP y RECEIPE
 OpenERP master en el base, PostgreSQL 9.3.4 y Supervisord 3.0
 - Buildout crea cron para iniciar Supervisord después de reiniciar (esto no lo he probado)
 - Supervisor ejecuta PostgreSQL, más info http://supervisord.org/
