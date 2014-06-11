@@ -47,11 +47,11 @@ $ mkdir eggs
 ```
 - Ahora procedemos a ehecutar el buildout en nuestro entorno virtual
 ```
-$ sandbox/bin/python bootstrap.py
+$ sandbox/bin/python bootstrap.py -c [archivo_buildout]
 ```
 - Y por último
 ```
-$ bin/buildout
+$ bin/buildout -c [archivo_buildout]
 ```
 
 
