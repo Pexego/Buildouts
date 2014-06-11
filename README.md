@@ -49,7 +49,12 @@ $ mkdir eggs
 ```
 $ sandbox/bin/python bootstrap.py -c [archivo_buildout]
 ```
-- Y por último
+- Y por último:
+- descargar receta de openerp del repo de anybox en launchpad, en el archivo de configuración de buildout poner la ruta al repo de anybox.
+```
+$ bzr branch lp:anybox.recipe.openerp
+```
+- Lanzar buildout (el -c [archivo_buildout] se usa cuando no tiene el nombre por defecto buildout.cfg)
 ```
 $ bin/buildout -c [archivo_buildout]
 ```
@@ -70,7 +75,7 @@ options.log_handler = [':ERROR']
 ...
 ```
 
-Si se quiere jeecutar más de una instancia de OpenERP, se deben cambiar los puertos,
+Si se quiere ejecutar más de una instancia de OpenERP, se deben cambiar los puertos,
 please change ports:
 ```
 openerp_xmlrpc_port = 8069  (8069 default openerp)
